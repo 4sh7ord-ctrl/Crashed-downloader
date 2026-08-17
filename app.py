@@ -1758,7 +1758,7 @@ def info():
         options={
             "quiet":True,
             "skip_download":True,
-            "noplaylist":True
+            "noplaylist":True,"extractor_args":{"youtube":{"player_client":["android_vr"]}}
         }
 
         with yt_dlp.YoutubeDL(
