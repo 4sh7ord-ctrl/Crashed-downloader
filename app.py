@@ -2028,6 +2028,9 @@ def worker(
                 "noplaylist":
                 True,
 
+                "extractor_args":
+                {"youtube":{"player_client":["android_vr"]}},
+
                 "progress_hooks":
                 [hook],
 
